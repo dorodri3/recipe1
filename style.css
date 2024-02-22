@@ -1,26 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&family=Kode+Mono:wght@400..700&family=Montserrat+Alternates:wght@700&family=Montserrat:ital@0;1&display=swap');
 
-
-
-
-
-
-
-html {
-
-    
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+
+
+
+
+
 
 
 body {
-
-
+    font-family: 'Arial', sans-serif;
 }
 
-nav li input p dd {
+h1, h2, h3 {
+    color: #333;
+}
 
-    font-size: 16px;
+p {
+    color: #666;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+#mainnav {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 20px 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eb5428;
+    font-weight: bold;
+}
+
+nav svg {
+    vertical-align: middle;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#recipe, #ingredients, #directions {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#dishes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#dishes > section {
+    width: calc(50% - 40px);
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#dishes img {
+    width: 100%;
+    height: auto;
+}
+
+
+#connect {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+#connect ul {
+    list-style: none;
+}
+
+#connect li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#connect a {
+    text-decoration: none;
+    color: #eb5428;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img {
+    height: 50px;
+    width: auto;
+}
+
+
+@media screen and (max-width: 414px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    #dishes > section {
+        width: 100%;
+    }
 }
 
 
@@ -43,10 +187,3 @@ nav li input p dd {
 
 
 
-
-
-
-
-#recipe ul {
-    list-style-type: none;
-}
