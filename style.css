@@ -8,6 +8,11 @@ background-color: rgba(122, 191, 191, .5);
 
 }
 
+header {
+    display:grid;
+    
+}
+
 body {
 
     background-color: #f2f2f2;
