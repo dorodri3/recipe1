@@ -53,9 +53,12 @@ p {
 
   
 
-    margin: auto;
+    
+}
 
-    display: flex;
+#recipe > h2 {
+
+    text-align: center;
 
     
 }
