@@ -18,7 +18,9 @@ body {
 }
 
 main {
-
+    margin: auto;
+    max-width: 100%;
+    height: auto;
 
 }
 
@@ -47,9 +49,27 @@ p {
    
 }
 
+#recipe {
+
+  
+
+    margin: auto;
+
+    display: flex;
+
+    
+}
+
+dl {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    
+}
+
 dt {
     font-family: "Montserrat Alternates", sans-serif;
-
-
-
+    
 }
