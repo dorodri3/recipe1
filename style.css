@@ -85,8 +85,8 @@ h3 {
 }
 
 #nav1 svg {
-    margin-bottom: 5px; /* Adds space between the SVG and the text */
-    align-self: center; /* Center-align the SVG */
+    margin-bottom: 5px; 
+    align-self: center; 
 }
 
 #nav1 button ,a[href="#recipe"] {
@@ -114,13 +114,36 @@ h3 {
 p {
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    padding: 10px;
    
 }
 
-#recipe > dl {
-    box-sizing: border-box;
-   
+
+
+#recipe {
+    display:flex;
+    flex-direction:column;
+    
 }
+
+
+#recipe dl {
+    display: grid;
+    grid-template-columns: auto auto; 
+    gap: 50px 10px; }
+
+    #recipe dt {
+        font-weight: bold; 
+        text-align: right; 
+        padding-right: 10px; 
+    }
+    
+    #recipe dd {
+        margin-left: 0; 
+    }
+
+
+
 
 dt {
     font-family: "Montserrat Alternates", sans-serif;  
