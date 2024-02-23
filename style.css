@@ -124,7 +124,7 @@ p {
 
 
 
-#recipe {
+#recipe { font-family: "Montserrat", sans-serif;
     display:flex;
     flex-direction:column;
     
