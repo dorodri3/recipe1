@@ -16,9 +16,8 @@ header {
 body {
 
     background-color: #f2f2f2;
-    width: 414px;
-    display: block;
-    margin:auto;
+    width: 414px;  
+    margin: 0 auto;
 
 }
 
@@ -38,6 +37,8 @@ img {
 h1 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
+    margin-top:100px;
+    padding:100px;
 }
 
 h2 {
@@ -69,6 +70,12 @@ dt {
 
 #dishes {
     background-color: #7abfbf;
+}
+
+button {
+    background-color: #EB5428;
+    border-style: none;
+    cursor: pointer;
 }
 
 #mainnav {
