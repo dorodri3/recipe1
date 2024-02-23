@@ -72,14 +72,15 @@ dt {
     background-color: #7abfbf;
 }
 
-button {
-    background-color: #EB5428;
+button ,[href="#recipe"] {
+    font-family: "Montserrat Alternates", sans-serif;  
+    font-weight: bold;
+
+    color:#eb5428;
+    background-color: #f2f2f2;
     border-style: none;
     cursor: pointer;
+    display:inline-block;
 }
 
-#mainnav {
-
-    
-}
 
