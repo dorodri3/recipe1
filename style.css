@@ -42,11 +42,15 @@ h1 {
 }
 
 h2 {
+    font-family: "Bebas Neue", sans-serif;
+    
     text-align: center;
     font-size:30px;
 }
 
 h3 {
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
     font-size:25px;
 }
 
@@ -150,9 +154,42 @@ dt {
     
 }
 
+
+#ingredients ul {
+    font-family: "Montserrat", sans-serif;
+}
+
+#directions {
+    padding: 10px;
+
+
+}
+
+
+#directions ol {
+    display: grid;
+    grid-template-columns: 1; 
+    gap: 50px 10px; 
+    font-family: "Montserrat", sans-serif;
+}
+
+#directions  {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 #dishes {
     background-color: #7abfbf;
 }
-
 
 
