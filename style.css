@@ -173,23 +173,55 @@ dt {
     font-family: "Montserrat", sans-serif;
 }
 
-#directions  {
-    
-}
-
-
-
-
-
-
-
-
-
-
 
 
 #dishes {
+    display: grid;
     background-color: #7abfbf;
 }
+
+#dishes img {  
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#connect {
+    display: inline-block;
+    
+}
+
+#connect ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#connect a {
+    color: #EB5428;
+    font-weight: bold;
+    font: 16px "bebas neue";
+    margin-right: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#connect a:hover {
+    background-color: #7abfbf;
+
+
+
+}
+
+#connect figure {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+
+
+
 
 
