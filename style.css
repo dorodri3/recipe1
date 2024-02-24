@@ -199,6 +199,30 @@ dt {
     text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #connect a {
     color: #EB5428;
     font-weight: bold;
@@ -209,7 +233,7 @@ dt {
 }
 
 #connect a:hover {
-    background-color: #7abfbf;
+    color: #7abfbf;
 
 
 
