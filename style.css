@@ -191,6 +191,83 @@ dt {
     
 }
 
+
+.mainnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a img, nav ul li a svg {
+    margin-left: 8px;
+    width: 24px; /* Adjust size as needed */
+    height: auto;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+form button[type="submit"] {
+    padding: 5px;
+}
+
+/* Adjustments for the dropdown menu */
+#dropdown {
+    display: none; /* Hide the actual checkbox */
+}
+
+label[for="dropdown"] {
+    cursor: pointer;
+    background-color: #eb5428;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between menu button and actual menu items */
+}
+
+/* Show menu when the checkbox is checked */
+#dropdown:checked + nav {
+    display: block;
+}
+
+nav {
+    display: none; /* Start with the nav menu hidden */
+}
+
+
+
+
+
+
+
+
 #connect ul {
     display: flex;
     padding: 0;
@@ -198,11 +275,6 @@ dt {
     list-style: none;
     text-align: center;
 }
-
-
-
-
-
 
 
 
